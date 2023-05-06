@@ -1,0 +1,9 @@
+.projBox {
+    background-color: rgb(0, 119, 255);
+    border-radius: 20px;
+    /* display: inline-block;
+    height: 0;
+    padding-bottom: 100%; */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}

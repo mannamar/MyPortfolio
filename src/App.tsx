@@ -5,6 +5,8 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import Headbox from './components/Headshot';
 import MyNavbar from './components/MyNavbar';
+import Skills from './components/Skills';
+import ProjCard from './components/ProjCard';
 
 function App() {
   return (
@@ -13,6 +15,14 @@ function App() {
         <MyNavbar/>
         <AboutMe/>
         <Headbox/>
+      </Row>
+      <Row className='mt-4'>
+        <Skills/>
+      </Row>
+      <Row className='mt-4'>
+        <ProjCard/>
+        <ProjCard/>
+        <ProjCard/>
       </Row>
     </Container>
   );
