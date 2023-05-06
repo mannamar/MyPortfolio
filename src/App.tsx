@@ -11,19 +11,19 @@ import ProjCard from './components/ProjCard';
 function App() {
   return (
     <Container fluid="md">
-      <Row>
-        <MyNavbar/>
+      <Row className="mt-5">
+        {/* <MyNavbar/> */}
         <AboutMe/>
         <Headbox/>
       </Row>
       <Row className='mt-4'>
-        <Skills/>
+        {/* <Skills/> */}
       </Row>
-      <Row className='mt-4'>
+      {/* <Row className='mt-4'>
         <ProjCard/>
         <ProjCard/>
         <ProjCard/>
-      </Row>
+      </Row> */}
     </Container>
   );
 }
