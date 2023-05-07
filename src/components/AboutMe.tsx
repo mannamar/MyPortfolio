@@ -1,12 +1,35 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import './AboutMe.css';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function AboutMe() {
     return (
         <Col xs={8}>
             <div className="aboutBox">
-                <h1>Hi, My name is Amar</h1>
+                <div className="glassBox">
+                    <div className="innerAboutBox">
+                        <h1 className="pt-5">Hi, My name is Amar</h1>
+                        <h1>I'm a{' '}
+                            <TypeAnimation className="typedText"
+                                sequence={[
+                                    'Web Developer',
+                                    2000,
+                                    'UI/UX Designer',
+                                    1500,
+                                    'Problem Solver',
+                                    1500,
+                                    'Codestack Graduate',
+                                    1500,
+                                ]}
+                                repeat={Infinity}
+                            />
+                        </h1>
+                        <div className='btnRow d-flex'>
+                            <button className="conBtn">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </Col>
     )
