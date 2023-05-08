@@ -1,6 +1,23 @@
 .skillsBox {
     height: 400px;
-    background-color: rgb(255, 242, 0);
+    background-color: rgb(10,25,47);
     border-radius: 20px;
     overflow-y: hidden;
+}
+
+.innerSkillsBox {
+    margin-left: 70px;
+}
+
+.skillsH1 {
+    color: white;
+}
+
+.icon {
+    max-width: 30px;
+}
+
+.text {
+    color: white;
+    padding-left: 10px;
 }
