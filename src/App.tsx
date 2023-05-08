@@ -7,6 +7,7 @@ import Headbox from './components/Headshot';
 import MyNavbar from './components/MyNavbar';
 import Skills from './components/Skills';
 import ProjCard from './components/ProjCard';
+import Tools from './components/Tools';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </Row>
       <Row className='mt-4'>
         <Skills/>
+        <Tools/>
       </Row>
       <Row className='mt-4'>
         <ProjCard/>

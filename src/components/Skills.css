@@ -1,8 +1,13 @@
 .skillsBox {
     height: 400px;
-    background-color: rgb(10,25,47);
+    /* background-color: rgb(10,25,47); */
+    background-color: rgb(24, 19, 57);
     border-radius: 20px;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+}
+
+.toolsBox {
+    background-color: rgb(44, 41, 57);
 }
 
 .innerSkillsBox {
