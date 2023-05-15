@@ -9,7 +9,7 @@ function MyNavbar() {
   return (
     <Navbar bg="white" expand="lg">
       <Container>
-        <Navbar.Brand href="http://www.mannamar.net/">
+        <Navbar.Brand href="https://mannamar.net/">
           <img alt="AM Logo" src={amLogo} className="amLogo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
