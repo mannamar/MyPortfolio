@@ -7,7 +7,7 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 
 .projTitle {
@@ -23,7 +23,7 @@
 }
 
 .projImg {
-    height: 80%;
+    height: 335px;
     margin-left: 8%;
     border-radius: 10px;
 }
@@ -33,3 +33,12 @@
     top: 8%;
     right: 5%;
 }
+
+.projCont {
+    transition: transform .2s;
+    position: relative;
+}
+
+.projCont:hover {
+    transform: scale(1.03);
+  }

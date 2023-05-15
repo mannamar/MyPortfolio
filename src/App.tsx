@@ -33,7 +33,7 @@ function App() {
       <Row className='mt-4 mb-4'>
         <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.azurewebsites.net/"/>
         <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://thesignshop.azurewebsites.net/"/>
-        <ProjCard title="Gamewap (In-Progress)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
+        <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
       </Row>
     </Container>
   );

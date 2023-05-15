@@ -3,6 +3,9 @@ import { Col, Row } from 'react-bootstrap';
 import './AboutMe.css';
 import { TypeAnimation } from 'react-type-animation';
 import { LinkedinLogo } from '@phosphor-icons/react';
+import { FaPhone } from 'react-icons/fa';
+import { SiCodewars } from 'react-icons/si';
+import { BsGithub } from 'react-icons/bs'
 
 export default function AboutMe() {
     return (
@@ -27,12 +30,27 @@ export default function AboutMe() {
                             />
                         </h1>
                         <div className='btnRow d-flex'>
-                            <a href="https://www.linkedin.com/in/mannamar/" rel="noreferrer" target="_blank">
+                            <a href="mailto:amann@codestack.co" rel="noreferrer" target="_blank">
                                 <button className="conBtn">Contact Me</button>
                             </a>
+                            <a href="https://www.codewars.com/users/mannamar" rel="noreferrer" target="_blank">
+                                <button className="socBtn ghBtn">
+                                    <BsGithub size={25} className="socLogo"/>
+                                </button>
+                            </a>
                             <a href="https://www.linkedin.com/in/mannamar/" rel="noreferrer" target="_blank">
-                                <button className="socBtn">
+                                <button className="socBtn liBtn">
                                     <LinkedinLogo size={28} weight="fill" className="socLogo"/>
+                                </button>
+                            </a>
+                            <a href="https://www.codewars.com/users/mannamar" rel="noreferrer" target="_blank">
+                                <button className="socBtn cwBtn">
+                                    <SiCodewars size={25} className="socLogo"/>
+                                </button>
+                            </a>
+                            <a href="tel:510-859-8555" rel="noreferrer" target="_blank">
+                                <button className="socBtn phBtn">
+                                    <FaPhone size={25} className="socLogo"/>
                                 </button>
                             </a>
                         </div>

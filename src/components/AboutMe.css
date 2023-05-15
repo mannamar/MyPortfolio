@@ -61,16 +61,29 @@ button {
     /* color: white; */
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.049);
+    transition: background-color .35s ease-out;
 }
 
 .socLogo {
     color: black;
 }
 
-.socBtn:hover {
-    background-color: rgb(9, 9, 156);
-}
-
 .socBtn:hover .socLogo {
     color: white;
+}
+
+.liBtn:hover {
+    background-color: #0077b5;
+}
+
+.cwBtn:hover {
+    background-color: rgb(177,54,30);
+}
+
+.ghBtn:hover {
+    background-color: black;
+}
+
+.phBtn:hover {
+    background-color: green;
 }
