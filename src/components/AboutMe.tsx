@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './AboutMe.css';
 import { TypeAnimation } from 'react-type-animation';
+import { LinkedinLogo } from '@phosphor-icons/react';
 
 export default function AboutMe() {
     return (
@@ -26,7 +27,14 @@ export default function AboutMe() {
                             />
                         </h1>
                         <div className='btnRow d-flex'>
-                            <button className="conBtn">Contact Me</button>
+                            <a href="https://www.linkedin.com/in/mannamar/" rel="noreferrer" target="_blank">
+                                <button className="conBtn">Contact Me</button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mannamar/" rel="noreferrer" target="_blank">
+                                <button className="socBtn">
+                                    <LinkedinLogo size={28} weight="fill" className="socLogo"/>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -53,3 +53,24 @@ button {
 .conBtn:hover {
     background-color: rgb(37, 37, 37);
 }
+
+.socBtn {
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    /* color: white; */
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.049);
+}
+
+.socLogo {
+    color: black;
+}
+
+.socBtn:hover {
+    background-color: rgb(9, 9, 156);
+}
+
+.socBtn:hover .socLogo {
+    color: white;
+}

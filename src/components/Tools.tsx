@@ -5,7 +5,6 @@ import unity from '../assets/images/unity.svg';
 import postman from '../assets/images/postman.svg';
 import mssql from '../assets/images/mssql.svg';
 import './Skills.css';
-// import 'devicon';
 
 export default function Tools() {
     return (

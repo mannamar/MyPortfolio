@@ -6,4 +6,30 @@
     padding-bottom: 100%; */
     width: 100%;
     aspect-ratio: 1 / 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.projTitle {
+    color: white;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+.projText {
+    color: white;
+    padding-left: 8%;
+    opacity: .6;
+}
+
+.projImg {
+    height: 80%;
+    margin-left: 8%;
+    border-radius: 10px;
+}
+
+.projArrow {
+    position: absolute;
+    top: 8%;
+    right: 5%;
 }
