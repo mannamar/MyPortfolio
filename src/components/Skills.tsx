@@ -7,7 +7,7 @@ export default function Skills() {
     return (
 
 
-            <Col xs={6}>
+            <Col xs={16} md={6}>
                 <div id="skills" className="skillsBox">
                     <div className="innerSkillsBox">
                         <h2 className="skillsH1 pt-5">Tech Stack</h2>

@@ -5,7 +5,7 @@ import './Headshot.css';
 
 export default function Headbox() {
     return (
-        <Col xs={4}>
+        <Col sxs={16} md={4}>
             <div className="headBox">
                 <img className="headPic" src={picture} alt="Handsome gentleman"/>
             </div>

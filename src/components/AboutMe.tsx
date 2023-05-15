@@ -9,7 +9,7 @@ import { BsGithub } from 'react-icons/bs'
 
 export default function AboutMe() {
     return (
-        <Col xs={8}>
+        <Col xs={16} md={8}>
             <div id="contact" className="aboutBox">
                 <div className="glassBox">
                     <div className="innerAboutBox">

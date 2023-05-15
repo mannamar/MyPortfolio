@@ -10,7 +10,7 @@ export default function Tools() {
     return (
 
 
-            <Col xs={6}>
+            <Col xs={16} md={6}>
                 <div className="skillsBox toolsBox">
                     <div className="innerSkillsBox">
                         <h2 className="skillsH1 pt-5">Dev Tools</h2>
