@@ -12,6 +12,12 @@ import Tools from './components/Tools';
 import pokeImg from './assets/images/pokepedia.png';
 import signImg from './assets/images/signshop.png';
 import gameImg from './assets/images/gameswap.png';
+import rockImg from './assets/images/rock-paper.png';
+import weathImg from './assets/images/weather.png';
+import socmImg from './assets/images/socmed.png';
+import taskImg from './assets/images/tasktracker.png';
+import dealImg from './assets/images/deal.png';
+import cyoaImg from './assets/images/cyoa.png';
 
 function App() {
   return (
@@ -25,10 +31,16 @@ function App() {
         <Skills/>
         <Tools/>
       </Row>
-      <Row id="projects" className='mt-4 mb-4'>
+      <Row id="projects" className='mb-4'>
         <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.azurewebsites.net/"/>
         <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://thesignshop.azurewebsites.net/"/>
         <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
+        <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/"/>
+        <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://mannaweatherapp.azurewebsites.net/"/>
+        <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.azurewebsites.net/"/>
+        <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackersprint.azurewebsites.net/"/>
+        <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal"/>
+        <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa"/>
       </Row>
     </Container>
   );

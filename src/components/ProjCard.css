@@ -8,6 +8,7 @@
     aspect-ratio: 1 / 1;
     overflow: hidden;
     /* position: relative; */
+    margin-top: 1.5rem;
 }
 
 .projTitle {
