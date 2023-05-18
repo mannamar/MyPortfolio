@@ -33,7 +33,7 @@ export default function AboutMe() {
                             <a href="mailto:amann@codestack.co" rel="noreferrer" target="_blank">
                                 <button className="conBtn">Contact Me</button>
                             </a>
-                            <a href="https://www.codewars.com/users/mannamar" rel="noreferrer" target="_blank">
+                            <a href="https://github.com/mannamar" rel="noreferrer" target="_blank">
                                 <button className="socBtn ghBtn">
                                     <BsGithub size={25} className="socLogo"/>
                                 </button>
