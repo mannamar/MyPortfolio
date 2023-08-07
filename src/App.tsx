@@ -38,7 +38,7 @@ function App() {
         <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/"/>
         <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://theweatherrr.vercel.app/"/>
         <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.vercel.app/"/>
-        <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackersprint.azurewebsites.net/"/>
+        <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackerrr.vercel.app/Login"/>
         <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal"/>
         <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa"/>
       </Row>
