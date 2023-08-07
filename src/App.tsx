@@ -32,8 +32,8 @@ function App() {
         <Tools/>
       </Row>
       <Row id="projects" className='mb-4'>
-        <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.azurewebsites.net/"/>
-        <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://thesignshop.azurewebsites.net/"/>
+        <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.vercel.app/"/>
+        <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://signshop.vercel.app/"/>
         <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
         <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/"/>
         <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://mannaweatherapp.azurewebsites.net/"/>
