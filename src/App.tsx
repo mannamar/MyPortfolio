@@ -36,8 +36,8 @@ function App() {
         <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://signshop.vercel.app/"/>
         <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
         <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/"/>
-        <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://mannaweatherapp.azurewebsites.net/"/>
-        <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.azurewebsites.net/"/>
+        <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://theweatherrr.vercel.app/"/>
+        <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.vercel.app/"/>
         <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackersprint.azurewebsites.net/"/>
         <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal"/>
         <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa"/>
