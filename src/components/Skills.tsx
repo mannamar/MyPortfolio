@@ -6,8 +6,6 @@ import mssql from '../assets/images/mssql.svg';
 
 export default function Skills() {
     return (
-
-
             <Col xs={16} md={6}>
                 <div id="skills" className="skillsBox">
                     <div className="innerSkillsBox">

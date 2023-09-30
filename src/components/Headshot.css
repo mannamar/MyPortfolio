@@ -16,3 +16,19 @@
         height: 300px;
     }
 }
+
+@media (max-width: 767px) {
+    .headPic {
+        padding-top: 20px;
+        max-width: 340px;
+        /* width: 400px; */
+        /* height: auto; */
+        margin: auto;
+    }
+    .headBox {
+        /* display: flex; */
+        /* justify-content: center; */
+        text-align: center;
+        height: 250px;
+    }
+  }

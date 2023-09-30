@@ -146,3 +146,13 @@ button {
         margin-left: 0;
     }
 }
+
+@media (max-width: 767px) {
+    .aboutBox {
+        margin-top: 1.5rem;
+    }
+
+    .conBtn {
+        margin-right: calc(100% - 190px);
+    }
+}

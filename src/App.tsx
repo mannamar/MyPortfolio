@@ -22,8 +22,8 @@ import cyoaImg from './assets/images/cyoa.png';
 function App() {
   return (
     <Container fluid="md">
-      <Row>
-        <MyNavbar/>
+      <MyNavbar/>
+      <Row className="meCont">
         <AboutMe/>
         <Headbox/>
       </Row>
