@@ -16,6 +16,7 @@
 
 .skillsH1 {
     color: white;
+    padding-top: 3rem;
 }
 
 .icon {
@@ -25,4 +26,57 @@
 .text {
     color: white;
     padding-left: 20px;
+}
+
+@media (max-width: 1399px) {
+    .innerSkillsBox {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .innerSkillsBox {
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .innerSkillsBox {
+        margin-left: 30px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .icon {
+        max-width: 25px;
+    }
+    .skillsBox {
+        height: 350px;
+    }
+    .skillsH1 {
+        padding-top: 2.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .toolsBox {
+        margin-top: 1.5rem;
+    }
+    .innerSkillsBox {
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 599px) {
+    .innerSkillsBox {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 497px) {
+    .innerSkillsBox {
+        margin-left: 10%;
+    }
 }

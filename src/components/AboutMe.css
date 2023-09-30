@@ -26,6 +26,7 @@ h1 {
 .innerAboutBox {
     padding-left: 75px;
 }
+
 .typedText {
     color: rgb(255, 220, 40);
     /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.02); */
@@ -39,6 +40,8 @@ button {
 
 .btnRow {
     padding-top: 100px;
+    /* display: flex; */
+    /* flex: wrap; */
 }
 
 .conBtn {
@@ -52,6 +55,10 @@ button {
 
 .conBtn:hover {
     background-color: rgb(37, 37, 37);
+}
+
+.conSmallBtn {
+    display: none;
 }
 
 .socBtn {
@@ -88,4 +95,73 @@ button {
 
 .phBtn:hover {
     background-color: green;
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .innerAboutBox {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    .h1-pad {
+        padding-top: 35px !important;
+    }
+
+    .btnRow {
+        padding-top: 45px;
+    }
+
+    .innerAboutBox {
+        padding-left: 35px;
+    }
+
+    .aboutBox {
+        height: 300px;
+    }
+
+    .conBtn {
+        /* display: none; */
+        margin-right: 250px;
+        width: 145px;
+        height: 48px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .socBtn {
+        margin-left: 20px;
+        margin-top: 12px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .ghBtn {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutBox {
+        margin-top: 1.5rem;
+    }
+
+    .conBtn {
+        margin-right: calc(100% - 190px);
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 27px;
+        /* padding-left: 75px; */
+    }
 }
