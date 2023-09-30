@@ -66,6 +66,8 @@ button {
 
 .socLogo {
     color: black;
+    text-align: center;
+    width: 100%;
 }
 
 .socBtn:hover .socLogo {
