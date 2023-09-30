@@ -36,7 +36,7 @@ function App() {
         </Row>
         <Row id="projects" className='mb-4'>
           <ProjCard title="iHub" text="SJ County Economic Development" img={ihubImg} url="https://www.ihubsj.org/" professional={true}/>
-          <ProjCard title="CAPTAIN" text="CA Professional Autism Training" img={capImg} url="https://pokepedia.vercel.app/" professional={true}/>
+          <ProjCard title="CAPTAIN" text="CA Professional Autism Training" img={capImg} url="https://captaindata.org/" professional={true}/>
           <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap" professional={false}/>
           <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.vercel.app/" professional={false}/>
           <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://signshop.vercel.app/" professional={false}/>
