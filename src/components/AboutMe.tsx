@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import './AboutMe.css';
 import { TypeAnimation } from 'react-type-animation';
 import { LinkedinLogo } from '@phosphor-icons/react';
