@@ -42,4 +42,11 @@
 
 .projCont:hover {
     transform: scale(1.03);
-  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .projImg {
+        min-height: 350px;
+        min-width: 440px;
+    }
+}

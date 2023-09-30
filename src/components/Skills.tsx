@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import './Skills.css';
 import mssql from '../assets/images/mssql.svg';
 // import 'devicon';
@@ -11,7 +11,7 @@ export default function Skills() {
             <Col xs={16} md={6}>
                 <div id="skills" className="skillsBox">
                     <div className="innerSkillsBox">
-                        <h2 className="skillsH1 pt-5">Tech Stack</h2>
+                        <h2 className="skillsH1">Tech Stack</h2>
                         <Row>
                             <Col xs={6}>
                                 <div className="d-flex align-items-center mt-4">
