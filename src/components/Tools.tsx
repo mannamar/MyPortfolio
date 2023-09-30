@@ -13,7 +13,7 @@ export default function Tools() {
             <Col xs={16} md={6}>
                 <div className="skillsBox toolsBox">
                     <div className="innerSkillsBox">
-                        <h2 className="skillsH1 pt-5">Dev Tools</h2>
+                        <h2 className="skillsH1">Dev Tools</h2>
                         <Row>
                             <Col xs={6}>
                                 <div className="d-flex align-items-center mt-4">

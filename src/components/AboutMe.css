@@ -115,7 +115,7 @@ button {
     }
 
     .btnRow {
-        padding-top: 40px;
+        padding-top: 45px;
     }
 
     .innerAboutBox {
@@ -137,12 +137,22 @@ button {
 
     .socBtn {
         margin-left: 20px;
-        margin-top: 10px;
+        margin-top: 12px;
         height: 50px;
         width: 50px;
     }
 
     .ghBtn {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutBox {
+        margin-top: 1.5rem;
+    }
+
+    .conBtn {
+        margin-right: calc(100% - 190px);
     }
 }
