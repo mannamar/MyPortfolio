@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import './AboutMe.css';
 import { TypeAnimation } from 'react-type-animation';
 import { LinkedinLogo } from '@phosphor-icons/react';
@@ -13,7 +13,7 @@ export default function AboutMe() {
             <div id="contact" className="aboutBox">
                 <div className="glassBox">
                     <div className="innerAboutBox">
-                        <h1 className="pt-5">Hi, My name is Amar</h1>
+                        <h1 className="pt-5 h1-pad">Hi, My name is Amar</h1>
                         <h1>I'm a{' '}
                             <TypeAnimation className="typedText"
                                 sequence={[
@@ -29,10 +29,15 @@ export default function AboutMe() {
                                 repeat={Infinity}
                             />
                         </h1>
-                        <div className='btnRow d-flex'>
+                        <div className='btnRow'>
                             <a href="mailto:amann@codestack.co" rel="noreferrer" target="_blank">
                                 <button className="conBtn">Contact Me</button>
                             </a>
+                            {/* <a href="https://github.com/mannamar" rel="noreferrer" target="_blank">
+                                <button className="socBtn conSmallBtn">
+                                    <BsGithub size={25} className="socLogo"/>
+                                </button>
+                            </a> */}
                             <a href="https://github.com/mannamar" rel="noreferrer" target="_blank">
                                 <button className="socBtn ghBtn">
                                     <BsGithub size={25} className="socLogo"/>
