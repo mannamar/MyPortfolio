@@ -64,4 +64,19 @@
     .toolsBox {
         margin-top: 1.5rem;
     }
+    .innerSkillsBox {
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 599px) {
+    .innerSkillsBox {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 497px) {
+    .innerSkillsBox {
+        margin-left: 10%;
+    }
 }

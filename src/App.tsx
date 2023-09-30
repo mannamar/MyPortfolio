@@ -18,6 +18,8 @@ import socmImg from './assets/images/socmed.png';
 import taskImg from './assets/images/tasktracker.png';
 import dealImg from './assets/images/deal.png';
 import cyoaImg from './assets/images/cyoa.png';
+import ihubImg from './assets/images/ihub.png';
+import capImg from './assets/images/captain.png';
 
 function App() {
   return (
@@ -32,15 +34,17 @@ function App() {
         <Tools/>
       </Row>
       <Row id="projects" className='mb-4'>
-        <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.vercel.app/"/>
-        <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://signshop.vercel.app/"/>
-        <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap"/>
-        <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/"/>
-        <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://theweatherrr.vercel.app/"/>
-        <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.vercel.app/"/>
-        <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackerrr.vercel.app/Login"/>
-        <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal"/>
-        <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa"/>
+        <ProjCard title="iHub" text="SJ County Economic Development" img={ihubImg} url="https://www.ihubsj.org/" professional={true}/>
+        <ProjCard title="CAPTAIN" text="CA Professional Autism Training" img={capImg} url="https://pokepedia.vercel.app/" professional={true}/>
+        <ProjCard title="Gamewap (In Development)" text="Fullstack Second-Hand Marketplace" img={gameImg} url="https://github.com/mannamar/gameswap" professional={false}/>
+        <ProjCard title="Pokepedia" text="Modern Pokemon Encyclopedia" img={pokeImg} url="https://pokepedia.vercel.app/" professional={false}/>
+        <ProjCard title="The Sign Shop" text="Local Business Redevelopment" img={signImg} url="https://signshop.vercel.app/" professional={false}/>
+        <ProjCard title="Social Media Dashboard" text="Track Your Social Currency" img={socmImg} url="https://socmeddash.vercel.app/" professional={false}/>
+        <ProjCard title="Rock, Paper, Scissors..." text="Classic Game With A Twist" img={rockImg} url="https://mannamar.github.io/MannARockPaperSLS/" professional={false}/>
+        <ProjCard title="The.Weather" text="Rain or Shine It's Good Design" img={weathImg} url="https://theweatherrr.vercel.app/" professional={false}/>
+        <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackerrr.vercel.app/Login" professional={false}/>
+        <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal" professional={false}/>
+        <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa" professional={false}/>
       </Row>
     </Container>
   );

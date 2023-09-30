@@ -156,3 +156,10 @@ button {
         margin-right: calc(100% - 190px);
     }
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 27px;
+        /* padding-left: 75px; */
+    }
+}
