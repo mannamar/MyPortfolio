@@ -26,3 +26,21 @@
     color: white;
     padding-left: 20px;
 }
+
+@media (max-width: 1399px) {
+    .innerSkillsBox {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .innerSkillsBox {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .innerSkillsBox {
+        margin-left: 25px;
+    }
+}

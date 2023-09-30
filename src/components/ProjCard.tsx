@@ -6,7 +6,7 @@ import pokePic from '../assets/images/pokepedia.png';
 
 export default function ProjCard(props: { title: string; text: string; img: string; url: string;}) {
     return (
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={6} xl={4}>
             <a href={props.url} rel="noreferrer" target="_blank">
                 <div className="projBox">
                     <div className="projCont">

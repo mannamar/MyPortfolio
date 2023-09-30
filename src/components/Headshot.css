@@ -10,3 +10,9 @@
     padding-left: 20px;
     padding-top: 30px;
 }
+
+@media (max-width: 991px) {
+    .headBox {
+        height: 300px;
+    }
+}
