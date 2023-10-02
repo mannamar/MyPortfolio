@@ -46,6 +46,7 @@ function App() {
           <ProjCard title="Task Tracker" text="Showcasing Drag-and-Drop in React" img={taskImg} url="https://tasktrackerrr.vercel.app/Login" professional={false}/>
           <ProjCard title="Deal or No Deal" text="Gameshow Based Unity Game" img={dealImg} url="https://i.simmer.io/@amarcs/deal" professional={false}/>
           <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa" professional={false}/>
+          <ProjCard title="Super Coding Bro" text="Unity Made Text-Adventure Game" img={cyoaImg} url="https://i.simmer.io/@amarcs/cyoa" professional={false}/>
         </Row>
       </Container>
     </>
