@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://www.mannamar.net/" target="_blank"><img src="https://img.shields.io/badge/Deployment-Live-Green?logo=googlechrome&logoColor=lightgray" alt="Deployment Badge" /></a>
-<a href="https://www.linkedin.com/in/mannamar/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-1_yoe-Green?logo=linkedin&logoColor=white&color=green" alt="LinkedIn Badge" /></a>
+<a href="https://www.linkedin.com/in/mannamar/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-mannamar-Green?logo=linkedin&logoColor=white&color=darkblue" alt="LinkedIn Badge" /></a>
 <a href="https://www.codewars.com/users/mannamar" target="_blank"><img src="https://img.shields.io/badge/Codewars-3_kyu-Green?logo=codewars&logoColor=red&color=blue" alt="Codewars Badge" /></a>
 </p>
 
