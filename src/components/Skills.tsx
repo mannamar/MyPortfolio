@@ -25,7 +25,7 @@ export default function Skills() {
                                     <span className="text">SQL Server</span>
                                 </div>
                                 <div className="d-flex align-items-center mt-3">
-                                    <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                                    <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
                                     <span className="text">Tailwind</span>
                                 </div>
                                 <div className="d-flex align-items-center mt-3">
